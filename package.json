@@ -1,0 +1,21 @@
+{
+  "name": "a8c-xmpp",
+  "version": "0.0.0",
+  "description": "ERROR: No README.md file found!",
+  "main": "index.js",
+  "dependencies": {
+    "xmpp-client" : "*",
+    "coffee-script" : "*",
+    "apn" : "*",
+    "mongodb" : "*",
+    "ws" : "*"
+  },
+  "scripts": {
+    "start" : "coffee server.coffee",
+    "boot" : "foreman start service",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "author": "",
+  "license": "BSD"
+}
